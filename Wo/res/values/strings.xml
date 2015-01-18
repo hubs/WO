@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">撸吧妹子图</string>
+    <string name="app_url">www.vocome.com</string>
+    <string name="app_info">专注美女图片分享 </string>
+    <string name="app_wisdom">世界上有两种痛,一种是永远也得不到,另一种是失去了就再也回不来了。</string>
+
+    <!-- 反饋頁面 -->
+    <string name="str_feedback">意见反馈</string>
+    <string name="str_feedback_list">我的反馈</string>
+    <string name="str_feedback_want">我要反馈</string>
+    <string name="str_feedback_info">请输入您的反馈,我们将不断改进~:)</string>
+    <string name="str_qq_info">可在此留下您的邮箱/QQ/手机号</string>
+    <string name="str_message_info">请选输入您的反馈。</string>
+    <string name="str_message_sending">发送中....</string>
+    <string name="str_message_feedback_success">发送成功,感谢您的反馈。</string>
+    <string name="str_no_wifi">网络未连接，将为您加载历史数据</string>
+    <string name="str_messae_feedback_fails">发送失败,我们会极力抢修恢复.</string>
+    <string name="str_exit">再按一次退出程序</string>
+
+    <!-- 按鈕文字 -->
+    <string name="str_btn_submit">提交</string>
+
+    <!-- 左边栏 -->
+    <string name="left_all">查看全部</string>
+    <string name="left_xgmn">性感美女</string>
+    <string name="left_xqx">尤物/诱惑</string>
+    <string name="left_jr">大胸</string>
+    <string name="left_yw">清纯美女/自拍</string>
+    <!-- <string name="left_qcmm">清纯美女/萌</string> -->
+    <string name="left_mt">美腿/美臀</string>
+    <string name="left_gif">GIF</string>
+    <string name="left_theme_night">夜间模式</string>
+    <string name="left_theme_light">日间模式</string>
+    <string name="left_tj">应用推荐</string>
+
+    <!-- MScrollView使用 -->
+    <string name="str_border_top">Border Top</string>
+    <string name="str_border_bottom">Border Bottom</string>
+    <string name="str_image_url">Image Url</string>
+
+    <!-- 加载 头部 -->
+    <string name="str_load_news_content">正在加载新内容</string>
+    <string name="str_pulldown_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="str_pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="str_pull_to_refresh_refreshing_label">正在刷新…</string>
+    <string name="str_last_refresh">上次刷新：</string>
+
+    <!-- 加载 底部 -->
+    <string name="str_pullup_to_refresh_pull_label">上拉加载更多</string>
+    <string name="str_pullup_to_refresh_release_label">松开加载更多</string>
+    <string name="str_pull_to_refresh_updating_label">正在加载更多…</string>
+
+    <!-- 弹出窗 -->
+    <string name="str_dialog_title">【单击 : 关 , 左拉 : 上一张 , 右拉 : 下一张】</string>
+    <string name="str_no_find_sd">未检测到SD卡,停止加载数据。</string>
+    <string name="str_no_datas">拼命加载中, 请先看看别的吧.^_^</string>
+    <string name="str_no_datas_local">已到底了,先看一下别的分类数据吧.^_^</string>
+    <string name="str_ok_del">已删除图片,下次将不再显示。</string>
+
+</resources>

@@ -1,0 +1,57 @@
+# view AndroidManifest.xml #generated:38
+-keep class com.azero.core.MApplication { <init>(...); }
+
+# view res/layout/lay_image_dialog_gif.xml #generated:8
+-keep class com.azero.weiget.MGifView { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:111
+-keep class com.azero.weiget.alertDialog.ProgressWheel { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:76
+-keep class com.azero.weiget.alertDialog.SuccessTickView { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.azero.weiget.slidingmenu.lib.SlidingMenu { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.hlz.meizi.activitys.IndexActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.hlz.meizi.activitys.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.hlz.meizi.fragment.FeedBackFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.hlz.meizi.recive.MReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.hlz.meizi.service.StartDownDatasService { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.hlz.meizi.service.StartLoadDatasService { <init>(...); }
+
+# view res/layout/lay_main.xml #generated:9
+-keep class com.hlz.meizi.widget.MScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class net.youmi.android.AdBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class net.youmi.android.AdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class net.youmi.android.AdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class net.youmi.android.offers.OffersReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class net.youmi.android.spot.SpotAdContentProvider { <init>(...); }
+
+# onClick res/layout/lay_header.xml #generated:34
+-keepclassmembers class * { *** goFeedBack(...); }
+
+# onClick res/layout/lay_header.xml #generated:9
+-keepclassmembers class * { *** showLeftMenu(...); }
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/d51"
+    android:background="@drawable/top_banner" >
+
+    <!-- 左边图 -->
+
+    <ImageView
+        android:id="@id/lay_header_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/d15"
+        android:scaleType="fitXY"
+        android:onClick="showLeftMenu"
+        android:src="@drawable/d_top_left" />
+
+    <!-- 中间文字 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@id/lay_header_center"
+        android:text="@string/app_name"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/f18" />
+
+    <!-- 右边图 -->
+
+    <ImageView
+        android:id="@id/lay_header_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="@dimen/d15"
+        android:scaleType="fitXY"
+        android:onClick="goFeedBack"
+        android:src="@drawable/d_top_right" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/lay_loading_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/d60"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@id/lay_pull_to_refresh_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/d60"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/lay_pull_to_refresh_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_pulldown_to_refresh_pull_label"
+            android:textColor="@color/color_pulldownlistview_color"
+            android:textSize="@dimen/f17" />
+
+        <TextView
+            android:id="@id/lay_pull_to_refresh_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_pulldownlistview_time_color"
+            android:textSize="@dimen/f12"
+            android:visibility="gone" />
+    </LinearLayout>
+    <!-- indeterminate:不明确(false)就是滚动条的当前值自动在最小到最大值之间来回移动，形成这样一个动画效果，这个只是告诉别人“我正在工作”，但不能提示工作进度到哪个阶段,而“明确”(true)就是根据你的进度可以设置现在的进度值 -->
+
+    <ProgressBar
+        android:id="@id/lay_progress"
+        android:layout_width="@dimen/d18"
+        android:layout_height="@dimen/d18"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/d20"
+        android:layout_toLeftOf="@id/lay_pull_to_refresh_layout"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/d_home_refresh"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@id/lay_pull_to_refresh_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/d20"
+        android:src="@drawable/pulltorefresh_down_arrow"
+        android:layout_toLeftOf="@id/lay_pull_to_refresh_layout" />
+
+
+    <ImageView
+        android:id="@id/lay_list_refresh_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d6"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/list_refresh_bottom"
+        android:visibility="visible" />
+
+</RelativeLayout>

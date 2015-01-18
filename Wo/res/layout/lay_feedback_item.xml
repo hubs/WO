@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/lay_feedback_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/d12" >
+
+    <FrameLayout
+        android:id="@id/lay_feedback_img"
+        android:layout_width="@dimen/d40"
+        android:layout_height="@dimen/d40" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_sliding_account_avatar" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/d12"
+        android:layout_marginStart="@dimen/d12"
+        android:layout_toLeftOf="@id/lay_time"
+        android:layout_toRightOf="@id/lay_feedback_img"
+        android:text="您的反馈"
+        android:textColor="#ffa7a7a7"
+        android:textSize="@dimen/f14" />
+
+    <TextView
+        android:id="@id/lay_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/input_text"
+        android:layout_below="@id/input_text"
+        android:layout_marginTop="@dimen/d5"
+        android:layout_toRightOf="@id/lay_feedback_img"
+        android:text="十一过后,趣味精选栏目都不更新了"
+        android:textColor="#ff505050"
+        android:textSize="@dimen/f14" />
+
+    <TextView
+        android:id="@id/lay_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="2014-11-10 20:35"
+        android:textColor="#ffa7a7a7"
+        android:textSize="@dimen/f14" />
+
+    <ImageView
+        android:id="@id/lay_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d12"
+        android:layout_below="@id/lay_content"
+        android:background="@drawable/feedback_shadow_line" />
+
+    <TextView
+        android:id="@id/lay_replay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay_image"
+        android:layout_marginLeft="@dimen/d10"
+        android:layout_marginTop="@dimen/d5"
+        android:text="回復:謝謝您的建議!!!"
+        android:textColor="#ff505050"
+        android:textSize="@dimen/f14" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay_replay"
+        android:layout_marginBottom="5.0dip"
+        android:background="@drawable/d_page_beautiful" />
+
+</RelativeLayout>

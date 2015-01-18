@@ -1,0 +1,69 @@
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<resources>
+	<item name="lay_index_bg" type="id"></item><!-- 首页背景 -->
+    
+    <item name="lay_index_header" type="id"/> <!-- 反馈返回 -->
+    <item name="go_back" type="id"/> <!-- 返回到主列表 -->
+    <item name="go_list" type="id"/><!-- 留言列表  -->
+    <item name="btn_submit" type="id"/> <!-- 提交按钮 -->
+    <item name="input_text" type="id"/> <!-- 单行输入 -->
+    <item name="input_area" type="id"/> <!-- 多行输入 -->
+    <item name="bg_image_list" type="id"/> <!-- 圖片列表 -->
+    <item name="bg_image_item" type="id"/> <!-- 圖片背景 -->
+    <item name="bg_image_dialog" type="id"/>
+    <item name="lay_boay_main" type="id"/>
+    <item name="lay_scroll_main" type="id"/>
+    <item name="lay_nav_main" type="id"/>
+    <item name="lay_bottom_loadmore" type="id"/>
+    <item name="lay_list_view" type="id"/><!-- 反馈列表 -->
+    <item name="lay_feedback_item" type="id"/><!-- 反馈栏目 -->
+    <item name="lay_feedback_img" type="id"/><!-- 反馈默认头像 -->
+    <item name="lay_time" type="id"/>
+    <item name="lay_content" type="id"/>
+    <item name="lay_replay" type="id"/>
+    <item name="lay_image" type="id"/>
+    <!-- 左边栏 -->
+    <item name="img_logo" type="id"></item>
+    <item name="text_app_name" type="id"></item>
+    <item name="text_app_info" type="id"></item>
+    <item name="sliding_menu" type="id"></item>
+    <item name="sliding_body" type="id"></item>
+    <item name="sliding_left" type="id"></item>
+    <item name="sliding_right" type="id"></item>
+
+    <!-- 左边栏点击 -->
+    <item name="left_all" type="id"/>
+    <item name="left_theme" type="id"/>
+    <item name="left_xgmn" type="id"/>
+    <item name="left_xqx" type="id"/>
+    <item name="left_jr" type="id"/>
+    <item name="left_yw" type="id"/>
+    <item name="left_qcmm" type="id"/>
+    <item name="left_mt" type="id"/>
+    <item name="left_gif" type="id"/>
+    <item name="left_tj" type="id"/>
+
+    <!-- 主body -->
+    <item name="lay_header_left" type="id"></item>
+    <item name="lay_header_right" type="id"></item>
+    <item name="lay_header_center" type="id"/>
+
+    <!-- 加載更多 -->
+    <item name="lay_loading" type="id"/>
+    <item name="lay_progress" type="id"/>
+    <item name="lay_progress_message" type="id"/>
+    <item name="lay_loading_root" type="id"/>
+    <item name="lay_pull_to_refresh_layout" type="id"/>
+    <item name="lay_pull_to_refresh_text" type="id"/>
+    <item name="lay_pull_to_refresh_time" type="id"/>
+    <item name="lay_pull_to_refresh_progress" type="id"/>
+    <item name="lay_pull_to_refresh_image" type="id"/>
+    <item name="lay_list_refresh_bottom" type="id"/>
+    <item name="lay_list_refresh_top" type="id"/>
+
+    <item name="lay_del" type="id"></item>
+    
+    <!-- 广告 -->
+    <item name="AdLayout" type="id"></item>
+    <item name="AdIndexLayout" type="id"></item>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_white">#ffffffff</color>
+    <color name="color_gray">#cc000000</color>
+    <color name="color_alpha_half">#c0000000</color><!-- 半透明 -->
+    <color name="color_alpha_no">#ff000000</color><!-- 无全不透明 -->
+    <color name="color_alpha_yes">#00000000</color><!-- 完成透明 -->
+    <color name="color_alpah_white">#e5ffffff</color><!-- 白色透明 -->
+    <color name="color_black">#353535</color> <!-- 黑色 -->
+    <color name="color_text_color_gray">#E8E8E8</color> <!-- 灰色 -->
+    <color name="color_solid_black">#ff000000</color>
+    <color name="color_bg_detail_web">#eaeaec</color>
+
+    <color name="color_blue">#2CC978</color>
+    <color name="color_bg_color_deep">#E5E5E5</color>
+    <color name="color_text_color">#434343</color>
+    <color name="color_bg">#899A33</color>
+    <color name="color_green">#ff4cc78f</color>
+    
+    <!-- 下拉颜色 -->
+    <color name="color_pulldownlistview_color">#ffa9a9a9</color>
+    <color name="color_pulldownlistview_time_color">#ff999999</color>
+</resources>

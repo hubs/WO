@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- <TextView -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:gravity="center_horizontal" -->
+    <!-- android:text="@string/str_dialog_title" /> -->
+
+    <ImageView
+        android:id="@id/bg_image_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@null" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p2"
+        android:layout_margin="@dimen/d5"
+        layout="@layout/layout_line" />
+
+    <ImageView
+        android:id="@id/lay_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_menu_delete" />
+
+    <RelativeLayout
+        android:id="@+id/AdLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+    </RelativeLayout>
+
+</LinearLayout> <!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <ImageView xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- android:id="@id/bg_image_item" -->
+<!-- android:layout_width="match_parent" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:layout_margin="@dimen/d1" -->
+<!-- android:background="@drawable/news_item_bg" -->
+<!-- android:contentDescription="@string/app_name" -->
+<!-- android:padding="@dimen/d8" -->
+<!-- android:scaleType="fitXY" -->
+<!-- android:src="@null" /> -->
+<!-- <ImageView -->
+<!-- android:id="@id/lay_del" -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:contentDescription="@string/app_name" -->
+<!-- android:paddingLeft="@dimen/d10" -->
+<!-- android:layout_alignParentLeft="true" -->
+<!-- android:layout_alignParentStart="true" -->
+<!-- android:scaleType="center" -->
+<!-- android:src="@drawable/night_home_favorite_normal" /> -->
+
+
+<!-- <ImageView xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- android:id="@id/bg_image_dialog" -->
+<!-- android:layout_width="match_parent" -->
+<!-- android:layout_height="match_parent" -->
+<!-- android:contentDescription="@string/app_name" -->
+<!-- android:scaleType="center" -->
+<!-- android:src="@null" /> -->

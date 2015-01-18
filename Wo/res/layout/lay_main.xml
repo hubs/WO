@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <!-- 内容加载区 -->
+
+    <com.hlz.meizi.widget.MScrollView
+        android:id="@id/lay_boay_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lay_nav_main"
+        android:background="@color/color_bg_color_deep" >
+
+        <ScrollView
+            android:id="@id/lay_scroll_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/first_column"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/second_column"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/third_column"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </com.hlz.meizi.widget.MScrollView>
+
+    <!-- 导航栏 -->
+
+    <include
+        android:id="@id/lay_nav_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d50"
+        layout="@layout/lay_header" />
+    <!-- 正在加载 -->
+
+    <include
+        android:id="@id/lay_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay_nav_main"
+        layout="@layout/lay_load_more"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="text_shadow">
+        <item name="android:shadowColor">@color/color_solid_black</item>
+        <item name="android:shadowDx">1.3</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+    <style name="Theme.NoTitleBar.AppTheme" parent="@android:style/Theme.NoTitleBar" />
+
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleStyle">@style/PauseDialogTitle</item>
+        <item name="android:windowBackground">@drawable/news_item_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="PauseDialogTitle" parent="@android:style/TextAppearance">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/f12</item>
+    </style>
+    <!--  maxHeight   layout_height-->
+
+</resources>
